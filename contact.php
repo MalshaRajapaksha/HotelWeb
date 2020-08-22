@@ -59,7 +59,7 @@
         </div>
         <nav class="mainmenu mobile-menu">
             <ul>
-                <li class="active"><a href="./index.php">Home</a></li>
+                <li class="active"><a href="./index.html">Home</a></li>
                 <li><a href="./rooms.html">Rooms</a></li>
                 <li><a href="./about-us.html">About Us</a></li>
                 <li><a href="./pages.html">Pages</a>
@@ -83,7 +83,7 @@
         </div>
         <ul class="top-widget">
             <li><i class="fa fa-phone"></i> (12) 345 67890</li>
-            <li><i class="fa fa-envelope"></i> info.colorlib@gmail.com</li>
+            <li><i class="fa fa-envelope"></i> info.sona@gmail.com</li>
         </ul>
     </div>
     <!-- Offcanvas Menu Section End -->
@@ -96,7 +96,7 @@
                     <div class="col-lg-6">
                         <ul class="tn-left">
                             <li><i class="fa fa-phone"></i> (12) 345 67890</li>
-                            <li><i class="fa fa-envelope"></i> info.colorlib@gmail.com</li>
+                            <li><i class="fa fa-envelope"></i> info.sona@gmail.com</li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
@@ -184,7 +184,7 @@
                                 </tr>
                                 <tr>
                                     <td class="c-o">Email:</td>
-                                    <td>info.colorlib@gmail.com</td>
+                                    <td>info.sona@gmail.com</td>
                                 </tr>
                                 <tr>
                                     <td class="c-o">Fax:</td>
@@ -247,7 +247,7 @@
                             <h6>Contact Us</h6>
                             <ul>
                                 <li>(12) 345 67890</li>
-                                <li>info.colorlib@gmail.com</li>
+                                <li>info.sona@gmail.com</li>
                                 <li>856 Cordia Extension Apt. 356, Lake, United State</li>
                             </ul>
                         </div>
@@ -276,11 +276,7 @@
                             <li><a href="#">Environmental Policy</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="co-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-                    </div>
+                    
                 </div>
             </div>
         </div>

@@ -66,7 +66,7 @@ session_start();
                         <div class="nav-menu">
                             <nav class="mainmenu">
                                 <ul>
-                                    <li class="active"><a href="index.php">Home</a></li>
+                                    <li class="active"><a href="./index.php">Home</a></li>
                                     <li><a href="./rooms.php">Rooms</a></li>
                                     <li><a href="./about-us.html">About Us</a></li>
                                     <li><a href="./blog.html">News</a></li>
@@ -400,7 +400,7 @@ session_start();
                             <h6>Contact Us</h6>
                             <ul>
                                 <li>(12) 345 67890</li>
-                                <li>info.colorlib@gmail.com</li>
+                                <li>info.sona@gmail.com</li>
                                 <li>856 Cordia Extension Apt. 356, Lake, United State</li>
                             </ul>
                         </div>
@@ -429,11 +429,7 @@ session_start();
                             <li><a href="#">Environmental Policy</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="co-text"><p>
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-</p></div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
