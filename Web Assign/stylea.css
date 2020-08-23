@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(images/image22.jpg) no-repeat;
+  background-size: cover;
+}
+.menu-bar{
+  background:#7091a1;
+  text-align: center; 
+}
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: ; 
+}
+
+.menu-bar ul li{
+  width: 120px;
+  margin: 5px;
+  padding: 5px;
+}
+.menu-bar ul li a{
+  font-family: Comic Sans MS;
+  text-decoration: none;
+  color: #fff;
+}
+.active, .menu-bar ul li:hover{
+    background:#576d78 ;
+    border-radius: 2px;
+}
+.menu-bar .fa{
+  margin-right:10px;
+}
+.box{
+  width: 900px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  margin: auto;
+  margin-top: 4%;
+  color: white;
+  font-family: Comic Sans MS;
+}
+.box h1{
+  font-family: Bahnschrift;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h2{
+  font-size: 20px;
+  font-family: Lobster;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: #80ffe5;
+}
+.box p{
+  font-family: Comic Sans MS;
+  text-align: center;
+  letter-spacing: 2px;
+}

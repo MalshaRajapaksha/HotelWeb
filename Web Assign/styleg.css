@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu-bar{
+    background:#7091a1;
+    text-align: center; 
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color:#fff ; 
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+}
+.menu-bar ul li a{
+    font-family: Comic Sans MS;
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover{
+    background:#576d78 ;
+    border-radius: 2px;
+}
+.menu-bar .fa{
+    margin-right:10px;
+}
+
+h1{
+    text-align: center;
+    font-family:Consolas;
+    background-color: #576d78 ;
+}
+
+header{
+    background: white; 
+    text-align: center;
+    padding: 20px;
+}
+main{
+    width: 80%;
+    margin: 100px auto;
+}
+section{
+    width:100%;
+    padding: 30px ;
+}
+figure{
+    width: calc(100% / 3);
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+section::after,section::before{
+    content: "";
+    display: block;
+}
+section::after{
+    clear: both;
+}
+figure a{
+    display: block;
+    height: 100%;
+    width: calc(100% - 2px);
+    margin-left: 1px;
+}
+figure img{
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 0;
+
+}
+figcaption{
+    background: grey;
+    color: black;
+    text-align: center;
+    padding: 0.7px;
+    margin: 0 1px;
+}
+
+@media only screen and (max-width:1024px){
+    html{
+        font-size: 14px;
+    }
+    figure{
+        width: calc(100% /4);
+    }
+}

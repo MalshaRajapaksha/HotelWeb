@@ -1,0 +1,147 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Comic Sans MS;
+}   
+.menu-bar{
+    background:#7091a1;
+    text-align: center; 
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: ; 
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+}
+.menu-bar ul li a{
+    font-family: Comic Sans MS;
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover{
+    background:#576d78 ;
+    border-radius: 2px;
+}
+.menu-bar .fa{
+    margin-right:10px;
+}
+.container{
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+#contact-section{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(images/image6.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100% ;
+  height: 90%;
+  padding-bottom: 20%;
+}
+#contact-section .container h1{
+  font-family: Bahnschrift Light;
+  text-align: center;
+  color:#fff;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+#contact-section .container p{
+  text-align: center; 
+  font-family: Lobster;
+  padding-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto; 
+  color: #fff;
+  width: 70%; 
+  letter-spacing:2px;
+}
+.contact-form i.fa{
+  background-color: none;
+  font-size: 20px; 
+  margin: 2%;
+  padding: 3%;
+  border-radius: 100%;
+  cursor: pointer;
+  border:2px solid rgb(242, 239, 201);
+  color: rgb(242, 239, 201);
+  margin-right: 20px;
+}
+.contact-form i.fa:hover{
+  color: white;
+  cursor: pointer;
+  border:2px solid white;
+}    
+  .contact-form{
+    display: grid;
+    font-family: Comic Sans MS;
+    grid-template-columns: auto auto;
+    margin-left: 30px;
+  }
+  .form-info{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  input{
+    padding: 10px;
+    margin:10px;
+    width: 70%;
+    color: white;
+    background-color:#5d5e5e;
+    border: none;
+    outline:none;
+    font-family: Corbel;
+  }
+  input::placeholder{
+    color: white;
+  }
+  textarea{
+  padding: 10px;
+  margin: 10px;     
+  width: 70%;
+  color: white;
+  background-color:#5d5e5e;
+  border: none;
+  outline:none;
+  }
+  textarea::placeholder{
+  color: #fff;
+  }
+  .submit{
+  width: 50%;
+  padding: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Comic Sans MS;
+  letter-spacing: 2px;
+  height:40px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-left: 14%;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border:2px solid rgb(250, 250, 177);
+  color: rgb(232, 222, 79);
+  }
+  .submit:hover{
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  }
+  @media (max-width: 768px){
+#contact-section .contact-form{
+        display: block;
+        width: 100%;
+        text-align: center;
+}
+#contact-section .submit{
+        width: 50%;
+}
+}
+

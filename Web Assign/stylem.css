@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-size: cover;
+	background-position: center;
+	font-family: Bahnschrift Light;
+}
+.menu-bar{
+	background:#1a1a1a;
+	text-align: center;	
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #1a1a1a; 
+}
+
+.menu-bar ul li{
+	width: 120px;
+	margin: 5px;
+	padding: 5px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #1a1a1a;
+}
+.active, .menu-bar ul li:hover{
+    background: #8db1d8;
+    border-radius: 2px;
+}
+.menu-bar .fa{
+	margin-right: 8px;
+}
+.sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+    background-color:#3b71ab;
+    margin-top:10px;
+    margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width: 160px;
+	padding: 10px;
+	background:transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color: #ffff66;
+}
+.load{
+	animation: slide 2s;
+}
+.slider{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+    animation: slide 10s infinite;
+}
+.content{
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+.principal{
+	left: 50%;
+	top: 50%;
+	
+	letter-spacing: 3px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.principal h1{
+	font-size: 70px;
+	margin-bottom: 20px;
+	font-family: Calibri Light;
+}
+@keyframes slide {
+	0%{
+		background-image: url('image1.jpg');
+	}
+	20%{
+		background-image: url('image1.jpg');
+	}
+	20.01%{
+		background-image: url('image2.jpg');
+	}
+	40%{
+		background-image: url('image2.jpg');
+	}
+	40.01%{
+		background-image: url('image3.jpg');
+	}
+	60%{
+		background-image: url('image3.jpg');
+	}
+	60.01%{
+		background-image: url('image4.jpg');
+	}
+	80%{
+		background-image: url('image4.jpg');
+	}
+	80.01%{
+		background-image: url('image5.jpg');
+	}
+	100%{
+		background-image: url('image5.jpg');
+	}
+}
